@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Finalgroupproject</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  <nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="/images/JPlogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      JPCourse
+    </a>
+    <%= link_to 'HOME', courses_path, class:"btn btn-dark" %>
+    <%= link_to 'Link2', courses_path, class:"btn btn-light" %>
+    <%= link_to 'Link3', courses_path, class:"btn btn-light" %>
+    <%= link_to 'Link4', courses_path, class:"btn btn-light" %>
+  </nav>
+
+
+    
+    <%= yield %>
+  </body>
+</html>

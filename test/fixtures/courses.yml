@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  coursename: MyString
+  description: MyText
+  subjectarea: MyString
+  credits: 1
+
+two:
+  coursename: MyString
+  description: MyText
+  subjectarea: MyString
+  credits: 1
